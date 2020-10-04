@@ -1,0 +1,5 @@
+---
+ - hosts: client_node
+   tasks:
+   - name: Ping Connection Test
+     ping:
